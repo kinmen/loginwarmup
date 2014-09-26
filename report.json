@@ -2,12 +2,12 @@
   "stats": {
     "suites": 2,
     "tests": 6,
-    "passes": 5,
+    "passes": 6,
     "pending": 0,
-    "failures": 1,
-    "start": "2014-09-25T23:08:28.062Z",
-    "end": "2014-09-25T23:08:28.066Z",
-    "duration": 4
+    "failures": 0,
+    "start": "2014-09-26T03:22:00.312Z",
+    "end": "2014-09-26T03:22:00.315Z",
+    "duration": 3
   },
   "tests": [
     {
@@ -18,7 +18,7 @@
     {
       "title": "empty not valid user",
       "fullTitle": "isvalidname empty not valid user",
-      "duration": 0
+      "duration": 1
     },
     {
       "title": "too long user",
@@ -41,13 +41,7 @@
       "duration": 0
     }
   ],
-  "failures": [
-    {
-      "title": "too long pw",
-      "fullTitle": "isvalidpass too long pw",
-      "duration": 0
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "should be valid user",
@@ -57,7 +51,7 @@
     {
       "title": "empty not valid user",
       "fullTitle": "isvalidname empty not valid user",
-      "duration": 0
+      "duration": 1
     },
     {
       "title": "too long user",
@@ -72,6 +66,11 @@
     {
       "title": "empty pw valid",
       "fullTitle": "isvalidpass empty pw valid",
+      "duration": 0
+    },
+    {
+      "title": "too long pw",
+      "fullTitle": "isvalidpass too long pw",
       "duration": 0
     }
   ]

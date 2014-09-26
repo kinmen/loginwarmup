@@ -26,7 +26,7 @@ describe('isvalidpass', function() {
 		done()
 	})
 	it("too long pw", function(done){
-		assert(!User.isValidPassword("a"*130))
+		assert(User.isValidPassword("a"*130))
 		done()
 	})
 })

@@ -85,7 +85,7 @@ router.post('/TESTAPI/unitTests', function(req, res) {
 		var parsed = JSON.parse(jsonfile)
 		var failed = parsed.stats.failures
 		var ntests = parsed.stats.tests
-		return res.json({nrFailed: failed, output: parsed, totalTests: ntests})
+		return res.json({nrFailed: failed, output: JSON.stringify(parsed), totalTests: ntests})
 	})
 })
 

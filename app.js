@@ -9,8 +9,10 @@ var mongoose = require("mongoose")
 //var mongo = require('mongodb');
 // var monk = require('monk');
 // var db = monk('localhost:27017/warmup')
+var mongourl = process.env.MONGOLAB_URI ||'mongodb://localhost/warmup';
+// var mongourl = 'mongodb://localhost/warmup'
 
-var db = mongoose.connect('mongodb://localhost/warmup')
+var db = mongoose.connect(mongourl)
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
