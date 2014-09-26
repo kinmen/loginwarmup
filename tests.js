@@ -50,6 +50,11 @@ describe('userdbstuff', function() {
 			done()
 		})
 	})
+	after(function(done) {
+		User.remove({}, function(err) {
+			done()
+		})
+	})
 	describe('users2', function() {
 		it("should add and find", function(done) {
 			var newuser = new User({user: userName, password: passWord, count: 1});

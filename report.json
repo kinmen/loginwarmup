@@ -1,24 +1,24 @@
 {
   "stats": {
-    "suites": 3,
-    "tests": 8,
-    "passes": 8,
+    "suites": 5,
+    "tests": 10,
+    "passes": 10,
     "pending": 0,
     "failures": 0,
-    "start": "2014-09-26T04:58:11.579Z",
-    "end": "2014-09-26T04:58:11.597Z",
-    "duration": 18
+    "start": "2014-09-26T05:37:51.388Z",
+    "end": "2014-09-26T05:37:51.448Z",
+    "duration": 60
   },
   "tests": [
     {
       "title": "should be valid user",
       "fullTitle": "isvalidname should be valid user",
-      "duration": 0
+      "duration": 1
     },
     {
       "title": "empty not valid user",
       "fullTitle": "isvalidname empty not valid user",
-      "duration": 1
+      "duration": 0
     },
     {
       "title": "too long user",
@@ -43,11 +43,21 @@
     {
       "title": "should be valid schema",
       "fullTitle": "users should be valid schema",
-      "duration": 3
+      "duration": 7
     },
     {
       "title": "should add and find",
-      "fullTitle": "users should add and find",
+      "fullTitle": "userdbstuff users2 should add and find",
+      "duration": 5
+    },
+    {
+      "title": "should find",
+      "fullTitle": "userdbstuff users2 should find",
+      "duration": 5
+    },
+    {
+      "title": "should find and inc count",
+      "fullTitle": "userdbstuff users2 should find and inc count",
       "duration": 3
     }
   ],
@@ -56,12 +66,12 @@
     {
       "title": "should be valid user",
       "fullTitle": "isvalidname should be valid user",
-      "duration": 0
+      "duration": 1
     },
     {
       "title": "empty not valid user",
       "fullTitle": "isvalidname empty not valid user",
-      "duration": 1
+      "duration": 0
     },
     {
       "title": "too long user",
@@ -86,11 +96,21 @@
     {
       "title": "should be valid schema",
       "fullTitle": "users should be valid schema",
-      "duration": 3
+      "duration": 7
     },
     {
       "title": "should add and find",
-      "fullTitle": "users should add and find",
+      "fullTitle": "userdbstuff users2 should add and find",
+      "duration": 5
+    },
+    {
+      "title": "should find",
+      "fullTitle": "userdbstuff users2 should find",
+      "duration": 5
+    },
+    {
+      "title": "should find and inc count",
+      "fullTitle": "userdbstuff users2 should find and inc count",
       "duration": 3
     }
   ]
