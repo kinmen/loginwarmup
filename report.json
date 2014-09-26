@@ -1,19 +1,19 @@
 {
   "stats": {
-    "suites": 2,
-    "tests": 6,
-    "passes": 6,
+    "suites": 3,
+    "tests": 8,
+    "passes": 8,
     "pending": 0,
     "failures": 0,
-    "start": "2014-09-26T03:22:00.312Z",
-    "end": "2014-09-26T03:22:00.315Z",
-    "duration": 3
+    "start": "2014-09-26T04:58:11.579Z",
+    "end": "2014-09-26T04:58:11.597Z",
+    "duration": 18
   },
   "tests": [
     {
       "title": "should be valid user",
       "fullTitle": "isvalidname should be valid user",
-      "duration": 1
+      "duration": 0
     },
     {
       "title": "empty not valid user",
@@ -39,6 +39,16 @@
       "title": "too long pw",
       "fullTitle": "isvalidpass too long pw",
       "duration": 0
+    },
+    {
+      "title": "should be valid schema",
+      "fullTitle": "users should be valid schema",
+      "duration": 3
+    },
+    {
+      "title": "should add and find",
+      "fullTitle": "users should add and find",
+      "duration": 3
     }
   ],
   "failures": [],
@@ -46,7 +56,7 @@
     {
       "title": "should be valid user",
       "fullTitle": "isvalidname should be valid user",
-      "duration": 1
+      "duration": 0
     },
     {
       "title": "empty not valid user",
@@ -72,6 +82,16 @@
       "title": "too long pw",
       "fullTitle": "isvalidpass too long pw",
       "duration": 0
+    },
+    {
+      "title": "should be valid schema",
+      "fullTitle": "users should be valid schema",
+      "duration": 3
+    },
+    {
+      "title": "should add and find",
+      "fullTitle": "users should add and find",
+      "duration": 3
     }
   ]
 }
