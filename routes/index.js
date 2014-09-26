@@ -21,8 +21,6 @@ router.post('/users/login', function(req, res) {
 	var userName = req.body.user;
 	var passWord = req.body.password;
 
-	console.log(req.body)
-
 	User.findOneAndUpdate({user: userName, password: passWord}, {$inc: {count: 1}}, function(err, docs) {
 		if (!docs) {
 			return res.json({errCode: -1});
@@ -48,8 +46,6 @@ router.post('/users/add', function(req, res) {
 
 	var userName = req.body.user;
 	var passWord = req.body.password;
-
-	console.log(userName);
 
 	if (!User.isValidUser(userName)) {
 		return res.json({errCode: -3});
