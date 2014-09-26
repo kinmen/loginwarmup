@@ -2,6 +2,8 @@ var User = require('./model/model.js')
 var assert = require("assert")
 require('./app.js')
 
+var toolong = Array(130).join('a')
+
 describe('isvalidname', function() {
 	it("should be valid user", function(done){
 		assert(User.isValidUser("gooduser"))
@@ -12,7 +14,14 @@ describe('isvalidname', function() {
 		done()
 	})
 	it("too long user", function(done){
-		assert(!User.isValidUser("a"*130))
+		assert(!User.isValidUser(toolong))
+		done()
+	})
+})
+
+describe('isnotvalidpass', function() {
+	it("too long pw", function(done){
+		assert(!User.isValidPassword(toolong))
 		done()
 	})
 })
@@ -26,11 +35,8 @@ describe('isvalidpass', function() {
 		assert(User.isValidPassword(""))
 		done()
 	})
-	it("too long pw", function(done){
-		assert(User.isValidPassword("a"*130))
-		done()
-	})
 })
+
 describe('users', function() {
 	it("should be valid schema", function(done) {
 		var userName = 'asdf'
@@ -42,6 +48,7 @@ describe('users', function() {
 		done()
 	})
 })
+
 describe('userdbstuff', function() {
 	var userName = 'a'
 	var passWord = 'peedubya'

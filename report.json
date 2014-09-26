@@ -1,24 +1,24 @@
 {
   "stats": {
-    "suites": 5,
+    "suites": 6,
     "tests": 10,
     "passes": 10,
     "pending": 0,
     "failures": 0,
-    "start": "2014-09-26T05:37:51.388Z",
-    "end": "2014-09-26T05:37:51.448Z",
-    "duration": 60
+    "start": "2014-09-26T23:34:55.881Z",
+    "end": "2014-09-26T23:34:55.920Z",
+    "duration": 39
   },
   "tests": [
     {
       "title": "should be valid user",
       "fullTitle": "isvalidname should be valid user",
-      "duration": 1
+      "duration": 0
     },
     {
       "title": "empty not valid user",
       "fullTitle": "isvalidname empty not valid user",
-      "duration": 0
+      "duration": 1
     },
     {
       "title": "too long user",
@@ -26,9 +26,14 @@
       "duration": 0
     },
     {
+      "title": "too long pw",
+      "fullTitle": "isnotvalidpass too long pw",
+      "duration": 2
+    },
+    {
       "title": "should be valid pw",
       "fullTitle": "isvalidpass should be valid pw",
-      "duration": 0
+      "duration": 1
     },
     {
       "title": "empty pw valid",
@@ -36,14 +41,9 @@
       "duration": 0
     },
     {
-      "title": "too long pw",
-      "fullTitle": "isvalidpass too long pw",
-      "duration": 0
-    },
-    {
       "title": "should be valid schema",
       "fullTitle": "users should be valid schema",
-      "duration": 7
+      "duration": 3
     },
     {
       "title": "should add and find",
@@ -53,12 +53,12 @@
     {
       "title": "should find",
       "fullTitle": "userdbstuff users2 should find",
-      "duration": 5
+      "duration": 2
     },
     {
       "title": "should find and inc count",
       "fullTitle": "userdbstuff users2 should find and inc count",
-      "duration": 3
+      "duration": 2
     }
   ],
   "failures": [],
@@ -66,12 +66,12 @@
     {
       "title": "should be valid user",
       "fullTitle": "isvalidname should be valid user",
-      "duration": 1
+      "duration": 0
     },
     {
       "title": "empty not valid user",
       "fullTitle": "isvalidname empty not valid user",
-      "duration": 0
+      "duration": 1
     },
     {
       "title": "too long user",
@@ -79,9 +79,14 @@
       "duration": 0
     },
     {
+      "title": "too long pw",
+      "fullTitle": "isnotvalidpass too long pw",
+      "duration": 2
+    },
+    {
       "title": "should be valid pw",
       "fullTitle": "isvalidpass should be valid pw",
-      "duration": 0
+      "duration": 1
     },
     {
       "title": "empty pw valid",
@@ -89,14 +94,9 @@
       "duration": 0
     },
     {
-      "title": "too long pw",
-      "fullTitle": "isvalidpass too long pw",
-      "duration": 0
-    },
-    {
       "title": "should be valid schema",
       "fullTitle": "users should be valid schema",
-      "duration": 7
+      "duration": 3
     },
     {
       "title": "should add and find",
@@ -106,12 +106,12 @@
     {
       "title": "should find",
       "fullTitle": "userdbstuff users2 should find",
-      "duration": 5
+      "duration": 2
     },
     {
       "title": "should find and inc count",
       "fullTitle": "userdbstuff users2 should find and inc count",
-      "duration": 3
+      "duration": 2
     }
   ]
 }
