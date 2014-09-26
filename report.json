@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2014-09-25T23:08:28.062Z",
+    "end": "2014-09-25T23:08:28.066Z",
+    "duration": 4
+  },
+  "tests": [
+    {
+      "title": "should be valid user",
+      "fullTitle": "isvalidname should be valid user",
+      "duration": 1
+    },
+    {
+      "title": "empty not valid user",
+      "fullTitle": "isvalidname empty not valid user",
+      "duration": 0
+    },
+    {
+      "title": "too long user",
+      "fullTitle": "isvalidname too long user",
+      "duration": 0
+    },
+    {
+      "title": "should be valid pw",
+      "fullTitle": "isvalidpass should be valid pw",
+      "duration": 0
+    },
+    {
+      "title": "empty pw valid",
+      "fullTitle": "isvalidpass empty pw valid",
+      "duration": 0
+    },
+    {
+      "title": "too long pw",
+      "fullTitle": "isvalidpass too long pw",
+      "duration": 0
+    }
+  ],
+  "failures": [
+    {
+      "title": "too long pw",
+      "fullTitle": "isvalidpass too long pw",
+      "duration": 0
+    }
+  ],
+  "passes": [
+    {
+      "title": "should be valid user",
+      "fullTitle": "isvalidname should be valid user",
+      "duration": 1
+    },
+    {
+      "title": "empty not valid user",
+      "fullTitle": "isvalidname empty not valid user",
+      "duration": 0
+    },
+    {
+      "title": "too long user",
+      "fullTitle": "isvalidname too long user",
+      "duration": 0
+    },
+    {
+      "title": "should be valid pw",
+      "fullTitle": "isvalidpass should be valid pw",
+      "duration": 0
+    },
+    {
+      "title": "empty pw valid",
+      "fullTitle": "isvalidpass empty pw valid",
+      "duration": 0
+    }
+  ]
+}
