@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	div(id = "wrapper")
+		form(name="login-form",class = "login-form", method="post")
+			div(class = "header")
+				h1= title
+			div(class = "footer")
+				button#btnSubmit(type="submit", class = "button", formaction = "/users/login") Logout
+				
