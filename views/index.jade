@@ -1,14 +1,35 @@
 extends layout
 
 block content
+	script(type = "text/javascript").
+		$(document).ready(function() {
+			$('#inputuser').blur(function(e) {
+				var user = $('#inputuser').val();
+				if (!user || user.length > 128) {
+					$('#err1').html("Username required and less than 128 chars please.");
+				} else {
+					$('#err1').html("");
+				};
+			});
+			$('#inputPassWord').blur(function(e) {
+				var pw = $('#inputPassWord').val();
+				if (pw.length > 128) {
+					$('#err2').html("Password less than 128 chars please.");
+				} else {
+					$('#err2').html("");
+				};
+			});
+		});
 	div(id = "wrapper")
 		form(name="login-form",class = "login-form", method="post")
 			div(class = "header")
 				h1= title
 			div(class = "content")
 				input#inputuser(type="text", placeholder="username", name="user", class = "input username", required = 'required')
+				span#err1(class = "err")
 				input#inputPassWord(type="password", placeholder="password", name="password", class = "input password")
+				span#err2(class = "err")
 			div(class = "footer")
 				button#btnSubmit(type="submit", class = "button", formaction = "/users/login") Login
-				button#btnSubmit(type="submit", class = "button", formaction = "/users/add") Add User
+				button#btnAdd(type="submit", class = "button", formaction = "/users/add") Add User
 				

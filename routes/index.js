@@ -8,7 +8,7 @@ var fs = require('fs')
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Please enter your credentials below' });
+  res.redirect('/users/login');
 });
 
 router.get('/users/login', function(req, res) {

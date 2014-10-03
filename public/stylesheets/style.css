@@ -139,10 +139,10 @@ HEADER
 	margin-bottom: 10px;
 }
 
-.login-form .header span {
+.err, .login-form .header span {
 	font-size: 11px;
 	line-height: 16px;
-	color: #678889;
+	color: #FF6262;
 	text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
 }
 
